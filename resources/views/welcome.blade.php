@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MLM SOLUTION</title>
+        <title>CMGLife Business</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,13 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    MLM SOLUTION
+                    CMG Life
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://twitter.com/ndiecodes">Twitter</a>
-                    <a href="https://github.com/ndiecodes">GitHub</a>
+                    <a href="https://dev.cmglife.in/index.php/knowledge-base/">Docs</a>
+                    <a href="https://youtube.com/cmglife26">Youtube</a>
+                    <a href="https://facebook.com/cmglife26">Facebook</a>
                 </div>
             </div>
         </div>
