@@ -1,0 +1,36 @@
+Laravel development server started: <http://0.0.0.0:8000>
+[Sat Oct 16 16:51:33 2021] PHP 7.4.3 Development Server (http://0.0.0.0:8000) started
+[Sat Oct 16 16:51:45 2021] 10.0.3.13:8520 Accepted
+[Sat Oct 16 16:51:45 2021] 10.0.3.13:8520 Closing
+[Sat Oct 16 16:51:49 2021] 10.0.0.236:8106 Accepted
+[Sat Oct 16 16:51:49 2021] 10.0.0.236:8106 Closing
+[Sat Oct 16 16:51:53 2021] 10.0.2.59:58006 Accepted
+[Sat Oct 16 16:51:53 2021] 10.0.2.59:58006 Closing
+[Sat Oct 16 16:52:01 2021] 10.0.0.236:8138 Accepted
+[Sat Oct 16 16:52:01 2021] 10.0.0.236:8138 Closing
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8144 Accepted
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8146 Accepted
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8144 [200]: GET /dist/css/pages/login-register-lock.css
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8148 Accepted
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8146 [200]: GET /dist/css/style.min.css
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8150 Accepted
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8148 [200]: GET /assets/node_modules/jquery/jquery-3.2.1.min.js
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8152 Accepted
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8144 Closing
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8150 [200]: GET /assets/node_modules/popper/popper.min.js
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8152 [200]: GET /assets/node_modules/bootstrap/dist/js/bootstrap.min.js
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8148 Closing
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8150 Closing
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8152 Closing
+[Sat Oct 16 16:52:02 2021] 10.0.0.236:8146 Closing
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8158 Accepted
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8158 [200]: GET /assets/images/background/login-register.jpg
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8158 Closing
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8160 Accepted
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8160 Closing
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8162 Accepted
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8162 [200]: GET /assets/node_modules/bootstrap/dist/js/bootstrap.min.js.map
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8162 Closing
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8164 Accepted
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8164 [200]: GET /assets/images/favicon.png
+[Sat Oct 16 16:52:04 2021] 10.0.0.236:8164 Closing
