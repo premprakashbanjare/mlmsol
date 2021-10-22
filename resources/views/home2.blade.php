@@ -116,7 +116,7 @@
                                         @if(Auth::user()->level > 0)
                                         <tr >
                                             <td>Referral Link:</td>
-                                            <td><a class="text-info" href="https://www.cmglife26.com/register?ref={{Auth::user()->username}}">https://www.cmglife26.com/register?ref={{Auth::user()->username}}</a></td>
+                                            <td><a class="text-info" href="https://my.cmglife.in/register?ref={{Auth::user()->username}}">https://my.cmglife.in/register?ref={{Auth::user()->username}}</a></td>
                                         </tr>
                                         @endif
                                     </tbody>
