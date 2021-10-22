@@ -38,7 +38,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">E-Earners</p>
+            <p class="loader__label">CMGLife</p>
         </div>
     </div>
     <!-- ============================================================== -->
@@ -313,7 +313,7 @@
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 2018 e-earners, All Rights Reserved.
+            © 2021 CMGLife Business and Trade Pvt Ltd, Saraipali, Chhattisgarh, All Rights Reserved.
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
