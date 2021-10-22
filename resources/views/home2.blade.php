@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', "Dashboard || e-earners")
+@section('title', "Dashboard || CMGLife")
 
 @section('breadtitle', "Dashboard")
 
@@ -10,17 +10,17 @@
 
 @section('content')
 @if(Auth::user()->level < 1)
-     <div class="alert alert-success"> Activate your account with ₦3,000 to earn ₦5000(plus referral bonus) ; accounts not activated is deleted in 2days. Click <b>"How To?"</b> bellow. </div>
+     <div class="alert alert-success"> Activate your account with Rs. 1770 to earn Rs. 5000 (plus referral bonus) ; accounts not activated is deleted in 2days. Click <b>"How To?"</b> bellow. </div>
 @elseif(Auth::user()->level == 1)
-<div class="alert alert-success"> Upgrade to Level 2 with ₦2,500 to earn ₦10,000. Check wallet balance to see if you have enough to upgrade!</div>
+<div class="alert alert-success"> Upgrade to Level 2 with Rs. 2,500 to earn Rs. 10,000. Check wallet balance to see if you have enough to upgrade!</div>
 @elseif(Auth::user()->level == 2)
-<div class="alert alert-success"> Upgrade to Level 3 with ₦5,000 to earn ₦40,000. Check wallet balance to see if you have enough to upgrade!</div>
+<div class="alert alert-success"> Upgrade to Level 3 with Rs. 5,000 to earn Rs. 40,000. Check wallet balance to see if you have enough to upgrade!</div>
 @elseif(Auth::user()->level == 3)
-<div class="alert alert-success"> Upgrade to Level 4 with ₦16,000 to earn ₦256,000. Check wallet balance to see if you have enough to upgrade!</div>
+<div class="alert alert-success"> Upgrade to Level 4 with Rs. 16,000 to earn Rs. 256,000. Check wallet balance to see if you have enough to upgrade!</div>
 @elseif(Auth::user()->level == 4)
-<div class="alert alert-success"> Upgrade to Level 5 with ₦56,000 to earn ₦1,792,000. Check wallet balance to see if you have enough to upgrade!</div>
+<div class="alert alert-success"> Upgrade to Level 5 with Rs. 56,000 to earn Rs. 1,792,000. Check wallet balance to see if you have enough to upgrade!</div>
 @elseif(Auth::user()->level == 5)
-<div class="alert alert-success"> Upgrade to Level 6 with ₦350,000 to earn ₦22,400,000. Check wallet balance to see if you have enough to upgrade!</div>
+<div class="alert alert-success"> Upgrade to Level 6 with Rs. 350,000 to earn Rs. 22,400,000. Check wallet balance to see if you have enough to upgrade!</div>
 @endif
 
 
@@ -30,7 +30,7 @@
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="myModalLabel2"><i class="la la-road2"></i> Upgrade to next Level (₦{{number_format($pay_amount)}})</h5>
+                                  <h5 class="modal-title" id="myModalLabel2"><i class="la la-road2"></i> Upgrade to next Level (Rs{{number_format($pay_amount)}})</h5>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
@@ -45,7 +45,7 @@
                                                         <ul class="list-group col-sm-12">
                                                             <li class="list-group-item p-3" >
                                                                 <input type="radio"  class="check " id="flat-radio-1" name="payment_method" checked data-radio="iradio_flat-red" value="wallet" >
-                                                                <label for="flat-radio-1">Upgrade with Wallet Balance - <em><b>₦{{number_format($pay_amount)}}</b></em></label>
+                                                                <label for="flat-radio-1">Upgrade with Wallet Balance - <em><b>Rs{{number_format($pay_amount)}}</b></em></label>
                                                             </li>
                                                             <li class="list-group-item p-3">
                                                                 <input type="radio" class="check " id="flat-radio-2" name="payment_method" data-radio="iradio_flat-red" value="paystack">
@@ -102,12 +102,12 @@
                                        
                                         <tr >
                                             <td>Total Benefits:</td>
-                                            <td class="text-success">₦{{number_format($transIn)}}</td>
+                                            <td class="text-success">Rs{{number_format($transIn)}}</td>
                                         </tr>
                                       
                                         <tr >
                                             <td>Total Withdrawal:</td>
-                                            <td class="text-danger">₦{{number_format($transOut)}}</td>
+                                            <td class="text-danger">Rs{{number_format($transOut)}}</td>
                                         </tr>
                                         <tr >
                                             <td>Joined:</td>
@@ -116,7 +116,7 @@
                                         @if(Auth::user()->level > 0)
                                         <tr >
                                             <td>Referral Link:</td>
-                                            <td><a class="text-info" href="http://e-earners.com/register?ref={{Auth::user()->username}}">http://e-earners.com/register?ref={{Auth::user()->username}}</a></td>
+                                            <td><a class="text-info" href="https://www.cmglife26.com/register?ref={{Auth::user()->username}}">https://www.cmglife26.com/register?ref={{Auth::user()->username}}</a></td>
                                         </tr>
                                         @endif
                                     </tbody>
@@ -171,50 +171,50 @@
                  
                     <tbody>
                       <tr>
-                        <td scope="row">LEVEL 1: (Activation). Pay ₦2000</td>
+                        <td scope="row">LEVEL 1: (Activation). Pay Rs2000</td>
                       </tr>
                       <tr>
-                        <td scope="row">Get 2 (downlines) x ₦1,500 = ₦3,000 – ₦2,500 (move to 2) = ₦500 profit</td>
+                        <td scope="row">Get 2 (downlines) x Rs1,500 = Rs3,000 – Rs2,500 (move to 2) = Rs500 profit</td>
                       
                       </tr>
                       <tr>
-                        <td scope="row">LEVEL 2: (Upgrade). Pay ₦2,500</td>
+                        <td scope="row">LEVEL 2: (Upgrade). Pay Rs2,500</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row"> 4 ( level 2 downlines) x ₦2,500 = ₦10,000 – ₦5,000 (move to 3) = ₦5,000 profit</td>
+                        <td scope="row"> 4 ( level 2 downlines) x Rs2,500 = Rs10,000 – Rs5,000 (move to 3) = Rs5,000 profit</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">LEVEL 3: (Upgrade). Pay ₦5,000</td>
+                        <td scope="row">LEVEL 3: (Upgrade). Pay Rs5,000</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">8 (level 3 downlines) x ₦5,000 = ₦40,000 – ₦16,000 (move to 4) = ₦24,000 profit</td>
+                        <td scope="row">8 (level 3 downlines) x Rs5,000 = Rs40,000 – Rs16,000 (move to 4) = Rs24,000 profit</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">LEVEL 4: (Upgrade). Pay ₦16,000</td>
+                        <td scope="row">LEVEL 4: (Upgrade). Pay Rs16,000</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">16 (level 4 downlines) x ₦16,000 = ₦256,000 – ₦56,000 (move to 5) = ₦200,000 profit</td>
+                        <td scope="row">16 (level 4 downlines) x Rs16,000 = Rs256,000 – Rs56,000 (move to 5) = Rs200,000 profit</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">LEVEL 5: (Upgrade). Pay ₦56,000</td>
+                        <td scope="row">LEVEL 5: (Upgrade). Pay Rs56,000</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">32 ( level 5 downlines) x ₦56,000 = ₦1,792,000 – ₦350,000 (move to 5) = ₦1,442,000 profit</td>
+                        <td scope="row">32 ( level 5 downlines) x Rs56,000 = Rs1,792,000 – Rs350,000 (move to 5) = Rs1,442,000 profit</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">LEVEL 6: (Upgrade). Pay ₦350,000</td>
+                        <td scope="row">LEVEL 6: (Upgrade). Pay Rs350,000</td>
                         
                       </tr>
                       <tr>
-                        <td scope="row">64 (level 6 downlines) x ₦56,000 = ₦22,400,000 (all yours)
+                        <td scope="row">64 (level 6 downlines) x Rs56,000 = Rs22,400,000 (all yours)
                            <p> <em>No More upgrades</em></p>
                         </td>
                         
@@ -226,7 +226,7 @@
                         
                       </tr>
                       <tr>
-                        <td scope="row">₦1000 referral bonus for each person who registers through your referral link.
+                        <td scope="row">Rs1000 referral bonus for each person who registers through your referral link.
                             
                         </td>
                         

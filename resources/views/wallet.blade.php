@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', "Wallet|| e-earners")
+@section('title', "Wallet|| CMGLife")
 
 @section('breadtitle', "Wallet")
 
@@ -18,7 +18,7 @@
                            
                                 <div class="row">
                                     <div class="col-12">
-                                        <h3 class="text-success">₦{{ !$wallet ? 0 : number_format($wallet->amount) }}</h3>
+                                        <h3 class="text-success">Rs{{ !$wallet ? 0 : number_format($wallet->amount) }}</h3>
                                         <h6 class="card-subtitle">Balance</h6></div>
                                     <div class="col-12">
                                         <div class="progress">
@@ -33,14 +33,14 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="card">
                             <div class="card-body">
-                            <h6 class="card-subtitle">Minimum Withdrawal: ₦1000</h6>
+                            <h6 class="card-subtitle">Minimum Withdrawal: Rs1000</h6>
                                 <div class="row">
                                     <div class="col-12">
                                     <form method="post" action="/send-payment-request">
                                     @csrf
                                     <div class="input-group mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text bg-light">₦</span>
+                                                <span class="input-group-text bg-light">Rs</span>
                                             </div>
                                             <input type="text" class="form-control" name="amount" placeholder="Amount">
                                             <div class="input-group-append">
@@ -108,7 +108,7 @@
                                             </div>
 
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text bg-light">₦</span>
+                                                <span class="input-group-text bg-light">Rs</span>
                                             </div>
                                             <input type="text" class="form-control" name="amount" placeholder="Amount">
                                             <div class="input-group-append">

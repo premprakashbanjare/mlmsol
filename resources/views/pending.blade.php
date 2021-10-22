@@ -1,6 +1,7 @@
+
 @extends('layouts.web')
 
-@section('title', "Pending || e-earners")
+@section('title', "Pending || CMGLife")
 
 @section('breadtitle', "Pending Activation")
 

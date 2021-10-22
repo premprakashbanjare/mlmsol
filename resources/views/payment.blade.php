@@ -1,5 +1,6 @@
+
 @extends('layouts.web')
-@section('title', "Payment || e-earners")
+@section('title', "Payment || CMGLife")
 
 @section('breadtitle', "Withdrawal Request")
 

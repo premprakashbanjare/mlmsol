@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>CMGLife Business</title>
+        <title>CMGLife26</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,13 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    CMG Life
+                    CMGLIFE26
                 </div>
 
                 <div class="links">
-                    <a href="https://dev.cmglife.in/index.php/knowledge-base/">Docs</a>
-                    <a href="https://youtube.com/cmglife26">Youtube</a>
-                    <a href="https://facebook.com/cmglife26">Facebook</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Earn</a>
+                    <a href="#">Distribute</a>
                 </div>
             </div>
         </div>

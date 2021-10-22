@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', "referrals not activated || e-earners")
+@section('title', "referrals not activated || CMGLife")
 
 @section('breadtitle', "Pending Activation")
 

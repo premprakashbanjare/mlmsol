@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', "Referrals || e-earners")
+@section('title', "Referrals || CMGLife")
 
 @section('breadtitle', "My Referrals")
 
