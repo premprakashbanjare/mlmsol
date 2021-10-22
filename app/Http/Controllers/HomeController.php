@@ -62,7 +62,7 @@ class HomeController extends Controller
           $d->message = $request->message;
       
   
-         Mail::to('info@e-earners.com')->send($d);
+         Mail::to('info@cmglife.in')->send($d);
   
          $request->session()->flash('success', "Success!! We will be in touch!");
           

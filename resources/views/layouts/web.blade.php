@@ -65,7 +65,7 @@
                         <!--End Logo icon -->
                         <!-- Logo text --><span>
                          <!-- dark Logo text -->
-                        earners</span> </a>
+                        cmglife</span> </a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
