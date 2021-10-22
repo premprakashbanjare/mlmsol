@@ -59,6 +59,7 @@
                                  <th>Name</th>
                                  <th>Username</th>
                                  <th>level</th>
+                                 <th>Token</th>
                                  <th>Joined</th>
                              </tr>
                          </thead>
@@ -68,6 +69,7 @@
                                  <td>{{$two->name}}</td>
                                  <td>{{$two->username}}</td>
                                  <td>{{$two->level}}</td>
+                                 <td>{{$one->remember_token}}</td>
                                  <td>{{date("d-M-Y", strtotime($two->created_at))}}</td>
                              </tr>
 
@@ -95,6 +97,7 @@
                                  <th>Name</th>
                                  <th>Username</th>
                                  <th>level</th>
+                                 <th>Token</th>
                                  <th>Joined</th>
                              </tr>
                          </thead>
@@ -104,6 +107,7 @@
                                  <td>{{$three->name}}</td>
                                  <td>{{$three->username}}</td>
                                  <td>{{$three->level}}</td>
+                                 <td>{{$one->remember_token}}</td>
                                  <td>{{date("d-M-Y", strtotime($three->created_at))}}</td>
                              </tr>
 
@@ -132,6 +136,7 @@
                                  <th>Name</th>
                                  <th>Username</th>
                                  <th>level</th>
+                                 <th>Token</th>
                                  <th>Joined</th>
                              </tr>
                          </thead>
@@ -141,6 +146,7 @@
                                  <td>{{$four->name}}</td>
                                  <td>{{$four->username}}</td>
                                  <td>{{$four->level}}</td>
+                                 <td>{{$one->remember_token}}</td>
                                  <td>{{date("d-M-Y", strtotime($four->created_at))}}</td>
                              </tr>
 
@@ -168,6 +174,7 @@
                                  <th>Name</th>
                                  <th>Username</th>
                                  <th>level</th>
+                                 <th>Token</th>
                                  <th>Joined</th>
                              </tr>
                          </thead>
@@ -177,6 +184,7 @@
                                  <td>{{$five->name}}</td>
                                  <td>{{$five->username}}</td>
                                  <td>{{$five->level}}</td>
+                                 <td>{{$one->remember_token}}</td>
                                  <td>{{date("d-M-Y", strtotime($five->created_at))}}</td>
                              </tr>
 
@@ -204,6 +212,7 @@
                                  <th>Name</th>
                                  <th>Username</th>
                                  <th>level</th>
+                                 <th>Token</th>
                                  <th>Joined</th>
                              </tr>
                          </thead>
@@ -213,6 +222,7 @@
                                  <td>{{$six->name}}</td>
                                  <td>{{$six->username}}</td>
                                  <td>{{$six->level}}</td>
+                                 <td>{{$one->remember_token}}</td>
                                  <td>{{date("d-M-Y", strtotime($six->created_at))}}</td>
                              </tr>
 
