@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png">
-    <title>Login || E-earners</title>
+    <title>Login || CMGLife</title>
     
     <!-- page css -->
     <link href="dist/css/pages/login-register-lock.css" rel="stylesheet">
@@ -33,7 +33,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">e-earners</p>
+            <p class="loader__label">CMGLife</p>
         </div>
     </div>
     <!-- ============================================================== -->

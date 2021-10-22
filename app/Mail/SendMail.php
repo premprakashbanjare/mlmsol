@@ -33,7 +33,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return  $this->from('bot@e-earners.com')
+        return  $this->from('info@cmglife.in')
         ->subject($this->subject)
         ->markdown('sendmail')->with([
             'name' => $this->name,
