@@ -21,6 +21,7 @@
                                                 <th>Name</th>
                                                 <th>Username</th>
                                                 <th>level</th>
+                                                <th>Token</th>
                                                 <th>Joined</th>
                                             </tr>
                                         </thead>
@@ -30,6 +31,7 @@
                                                 <td>{{$one->name}}</td>
                                                 <td>{{$one->username}}</td>
                                                 <td>{{$one->level}}</td>
+                                                <td>{{$one->remember_token}}</td>
                                                 <td>{{date("d-M-Y", strtotime($one->created_at))}}</td>
                                             </tr>
 
