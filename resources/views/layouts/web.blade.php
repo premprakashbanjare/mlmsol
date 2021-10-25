@@ -17,7 +17,7 @@
     <!-- sweetalert CSS -->
     <link href="/assets/node_modules/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
     <link href="/assets/node_modules/icheck/skins/all.css" rel="stylesheet">
-    <link href="dist/css/pages/form-ihceck.css" rel="stylesheet">
+    <link href="dist/css/pages/form-icheck.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="dist/css/style.min.css" rel="stylesheet">
