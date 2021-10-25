@@ -12,14 +12,14 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
 
-    public $activationFee = 3000;
+    public $activationFee = 1720;
 
-    public $referralBonus = 1000;
+    public $referralBonus = 780;
 
-    public $adminPayment = 500;
+    public $adminPayment = 180;
 
 
-    public $level1Payment = 1500;
+    public $level1Payment = 1720;
     public $level2Payment = 2500;
     public $level3Payment = 5000;
     public $level4Payment = 16000;
